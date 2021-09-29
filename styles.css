@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+  }
+  body {
+   background-image: url("https://www.hitocultural.com/wp-content/uploads/2020/12/Santiago.jpg");
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  nav {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 10px 0px;
+  }
+  
+  nav a {
+    margin: 10px;
+    color: red;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  article{
+    width: 85%;
+    background-color: white;
+    margin-left: auto; 
+    margin-right:auto;
+  }
+  
+  article h2 {
+    margin-top: 100px;
+    text-align: center;  
+  }
+  
+  .galeria {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .galeria img {
+    
+    margin-top: 50px;
+      width: 32%;
+  }
+  
+  @media screen and (max-width: 500px){
+    .galeria img {
+      width: 100%;
+    }
+  }
+  
